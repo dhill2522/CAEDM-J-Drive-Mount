@@ -1,0 +1,5 @@
+#/bin/bash
+#This is a simple script for mounting a BYU CAEDM account to the desktop.
+echo "*****Starting file system mount*****"
+sshfs <CAEDMusername>@scp.et.byu.edu:<pathToYourFolder> ~/Desktop/CAEDM
+
